@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMATES</title>
+    <link rel="icon" href="/logo.png" />
+    <link rel="stylesheet" href="/src/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <i data-lucide="music"></i>
+          <img src="./public/logo.png" alt="TMATES Logo" class="logo-image" />
+        </div>
+        <div class="nav-menu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#competition" class="nav-link">Competition</a>
+          <a href="#about" class="nav-link">About Us</a>
+        </div>
+        <div class="hamburger">
+          <i data-lucide="menu"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!--Landing Page-->
+    <section id="home" class="hero"></section>
+
+    <!-- Featured Dance Competition -->
+    <section id="competition" class="competition">
+      <div class="container">
+        <h2 class="section-title">Featured Competition</h2>
+        <div class="competition-card">
+          <div class="competition-header">
+            <div class="competition-badge">
+              <i data-lucide="award"></i>
+              <span>UPCOMING EVENT</span>
+            </div>
+            <h3>Urban Dance Battle 2025</h3>
+          </div>
+          <div class="competition-content">
+            <div class="competition-details">
+              <div class="detail-item">
+                <i data-lucide="calendar"></i>
+                <div>
+                  <span class="detail-label">Date</span>
+                  <span class="detail-value">August 15, 2025</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i data-lucide="map-pin"></i>
+                <div>
+                  <span class="detail-label">Location</span>
+                  <span class="detail-value">Cultural Center Arena</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i data-lucide="trophy"></i>
+                <div>
+                  <span class="detail-label">Prize Pool</span>
+                  <span class="detail-value">$50,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="competition-description">
+              <p>
+                Join us for the biggest urban dance competition of the year!
+                Rhythm Rebels will be showcasing our latest choreography in
+                multiple categories including Hip-Hop, Breaking, and
+                Contemporary fusion.
+              </p>
+              <p>
+                This year's theme focuses on "Cultural Unity Through Movement" -
+                celebrating diverse dance styles from around the world.
+              </p>
+            </div>
+          </div>
+          <div class="competition-actions">
+            <button class="btn-primary">Get Tickets</button>
+            <button class="btn-secondary">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Rhythm Rebels</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Our Story</h3>
+            <p>
+              Founded in 2018, Rhythm Rebels started as a small group of
+              passionate dancers with a dream to revolutionize the urban dance
+              scene. Today, we're a internationally recognized dance crew that
+              has performed on stages across the globe.
+            </p>
+
+            <h3>Our Mission</h3>
+            <p>
+              We believe dance is a universal language that connects people
+              across cultures and backgrounds. Our mission is to inspire,
+              educate, and entertain through the power of movement and rhythm.
+            </p>
+
+            <div class="achievements">
+              <div class="achievement">
+                <i data-lucide="award"></i>
+                <div>
+                  <h4>World Dance Championship</h4>
+                  <p>1st Place Winners 2023</p>
+                </div>
+              </div>
+              <div class="achievement">
+                <i data-lucide="star"></i>
+                <div>
+                  <h4>TV Appearances</h4>
+                  <p>Featured on 15+ shows</p>
+                </div>
+              </div>
+              <div class="achievement">
+                <i data-lucide="users"></i>
+                <div>
+                  <h4>Community Impact</h4>
+                  <p>1000+ students taught</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-placeholder">
+              <i data-lucide="users"></i>
+              <span>Team Photo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <i data-lucide="music"></i>
+              <span>T M A T E S</span>
+            </div>
+            <p>In Unity There Is Strength</p>
+          </div>
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: info@rhythmrebels.com</p>
+            <p>Phone: (555) 123-DANCE</p>
+          </div>
+          <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#"><i data-lucide="instagram"></i></a>
+              <a href="#"><i data-lucide="youtube"></i></a>
+              <a href="#"><i data-lucide="twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Rhythm Rebels. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
