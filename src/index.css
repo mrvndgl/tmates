@@ -78,7 +78,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #1c70cf;
+    color: #ffffff;
 }
 
 .nav-link.active::after {
@@ -88,7 +88,7 @@ body {
     left: 0;
     width: 100%;
     height: 2px;
-    background: #1c70cf;
+    background: #ffffff;
 }
 
 .hamburger {
@@ -240,6 +240,17 @@ body {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 3rem;
+    background: #121212;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.section-title-about {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
     background: #ffffff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -247,9 +258,8 @@ body {
 }
 
 .competition-card {
-    background: linear-gradient(135deg, #1c70cf, #242659);
+    background: linear-gradient(90deg, #121212, #f5f5f5);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(147, 51, 234, 0.2);
     border-radius: 20px;
     padding: 2rem;
     max-width: 800px;
@@ -295,6 +305,7 @@ body {
     background: rgba(15, 15, 35, 0.5);
     border-radius: 10px;
     border: 1px solid rgba(147, 51, 234, 0.2);
+    min-height: 200px;
 }
 
 .detail-item i {
@@ -335,8 +346,22 @@ body {
     flex-wrap: wrap;
 }
 
+.competition-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.competition-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
 .btn-primary {
-    background: linear-gradient(135deg, #1c70cf, #242659);
+    background: #121212;
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -348,29 +373,13 @@ body {
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(28, 112, 207, 0.3), 0 6px 20px rgba(36, 38, 89, 0.2);
-}
-
-.btn-secondary {
-    background: transparent;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    padding: 0.75rem 1.5rem;
-    border-radius: 10px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn-secondary:hover {
-    background: #242659;
-    color: white;
+    box-shadow: 0 4px 15px rgba(245, 245, 245, 0.1), 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* About Section */
 .about {
     padding: 6rem 0;
-    background: linear-gradient(135deg, #1c70cf, #242659);
+    background: linear-gradient(135deg, #121212, #353535);
 }
 
 .about-content {
@@ -459,7 +468,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #242659;
+    background: linear-gradient(135deg, #121212, #353535);
     padding: 3rem 0 1rem;
     border-top: 1px solid rgba(147, 51, 234, 0.2);
 }
