@@ -99,7 +99,6 @@ body {
 /* Hero Section */
 .hero {
     min-height: 100vh;
-    background-image: url('../bgcover.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -349,7 +348,8 @@ body {
 .competition-image {
   width: 100%;
   max-width: 400px;
-  height: auto;
+  height: 200px; /* Fixed height for all images */
+  object-fit: cover; /* This will crop images to fit while maintaining aspect ratio */
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;

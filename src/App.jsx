@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <img src="/logo.png" className="logo" alt="Logo" />
+        <img src="src/public/logo.png" className="logo" alt="Logo" />
       </div>
 
       <div className="card">
